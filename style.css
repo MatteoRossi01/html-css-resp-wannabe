@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 50%;
+  float: left;
+}
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 33%;
+}
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Common Responsive */
+  h1 {
+    margin-top: 10px;
+  }
+
+  img {
+    height: 100px;
+    margin-top: 10px;
+  }
+/* Common Responsive */
+
+/* Responsive */
+@media only screen and (max-width: 419px) {
+
+  .row {
+    min-width: 400px;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  /* Container Lezioni */
+  #lezioni {
+    background-color: #F2F2CD;
+    width: 420px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 95%;
+  margin: auto;
+  }
+  /* Container Lezioni */
+
+  /* Container Step */
+  #steps {
+    background-color: #fff;
+    width: 420px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 95%;
+    margin: auto;
+  }
+  /* Container Step */
+
+  /* Container why */
+  #why {
+    background-color: #F2F2CD;
+    width: 420px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Container why */
+ 
+
+}
+/* Responsive */
