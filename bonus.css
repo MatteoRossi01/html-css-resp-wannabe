@@ -1,0 +1,68 @@
+/* Responsive */
+    @media only screen and (max-width: 767px) {
+
+    .row {
+      min-width: 750px;
+      max-width: 750px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+      padding-bottom: 20px;
+    }
+  
+    /* Common Responsive */
+    h1 {
+      margin-top: 30px;
+    }
+  
+    img {
+      height: 150px;
+      margin-top: 25px;
+    }
+    /* Common Responsive */
+  
+    /* Container Lezioni */
+    #lezioni {
+      background-color: #F2F2CD;
+      width: 767px;
+    }
+  
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+    width: 95%;
+    margin: auto;
+    }
+    /* Container Lezioni */
+  
+    /* Container Step */
+    #steps {
+      background-color: #fff;
+      width: 767px;
+    }
+  
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      width: 95%;
+      margin: auto;
+    }
+    /* Container Step */
+  
+    /* Container why */
+    #why {
+      background-color: #F2F2CD;
+      width: 767px;
+    }
+  
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 100%;
+      margin-top: 40px;
+    }
+    
+    /* Container why */
+  
+  }
+  /* Responsive */
